@@ -1,4 +1,5 @@
-# Trivia_Game
+# Trivia_Game Link
+https://choudharyus.github.io/Trivia_Game/
 
 ### Prerequisites
 To start this game, you need to have the followig files in the same directory
