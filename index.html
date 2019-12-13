@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="triviaGame.css">
+    <script defer src="triviaGame.js"></script>
+</head>
+<body>
+    <div id="triviaContainer" class="container">
+        <text>Remaining Time: <text id="time001">10</text></text>
+        <div class="title">Trivia Game</div><br>
+        <div id="question" class="question"></div>
+        <label class="option"><input type="radio" name="option" value="1" /><span id="opt1"></span></label>
+        <label class="option"><input type="radio" name="option" value="2" /><span id="opt2"></span></label>
+        <label class="option"><input type="radio" name="option" value="3" /><span id="opt3"></span></label>
+        <label class="option"><input type="radio" name="option" value="4" /><span id="opt4"></span></label>
+        <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+        <button id="startButton" class="start-btn" onclick="loadQuestion(currentQuestion);">Start</button>
+    </div>
+<div id="result" class="container result" style="display: none;"></div>
+<!--div id="playAgain" class="container play Again" style="display: none;"></div-->
+<button id="resetBtn" class="reset button" style="display: none;" onclick="window.location.reload()">Play Again!</button>
+</body>
+</html>
