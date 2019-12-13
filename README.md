@@ -1,4 +1,6 @@
-# Trivia_Game Link
+# Trivia Game
+
+### Trivia_Game Link
 https://choudharyus.github.io/Trivia_Game/
 
 ### Prerequisites
