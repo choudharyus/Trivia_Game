@@ -6,8 +6,8 @@ To start this game, you need to have the followig files in the same directory
 - triviaGame.css
 - triviaGame.js
 
-### How to Start the Game
-In order to play the game, you need to open the triviaGame.html page in the browser (Google Chrome Preferred) and click the "Start" button.
+### How to Play the Game
+In order to play the game, click the "Start" button. There are 3 trivia questions, each quesiton needs to be answered within a 10 second; if you don't answer the question within 10 second the game will end show you the final score. Score is graded 10 points on each correct answer. Player needs to click the next button to move to the next question. At the end of the game final score will be displayed, and there is a play again butto if the player wants to play the game again.
 
 ### Features
 The game has multiple features such as:
